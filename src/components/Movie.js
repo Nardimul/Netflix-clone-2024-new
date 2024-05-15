@@ -15,7 +15,7 @@ function Movie () {
   return (
     <div>
         {movieList.map((movie)=>(
-            <img style={{width:"300px", height:"250px", marginLeft:"20px", marginTop:"30px"}} src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}/>
+            <img style={{width:"300px", height:"250px", marginLeft:"20px", marginTop:"30px"}} src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt='red'/>
         ))}
     </div>
   )

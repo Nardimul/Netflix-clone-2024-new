@@ -14,6 +14,7 @@ const Home = () => {
     <Footer />
       
     </>
+    <h2>hello</h2>
   )
 }
 

@@ -12,7 +12,7 @@ const Home = () => {
     <Banner />
     <RowList />
     <Footer />
-      
+      <h2>hello</h2>
     </>
     
   )
